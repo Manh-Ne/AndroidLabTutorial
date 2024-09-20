@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
         b.setTitle("Question")
                 .setMessage("Are you sure you want to exit?")
